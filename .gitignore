@@ -1,0 +1,11 @@
+.env
+state.db
+state.db-shm
+state.db-wal
+*.log
+interrupt_debug.log
+models_dev_cache.json
+auth.json
+auth.lock
+.git/
+hermes-agent/
