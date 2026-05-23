@@ -1,0 +1,76 @@
+{
+  "apiKey": "hch-v3-cjk50ug4l9a0o04lph606o16qgfb8n5pf0qcp21l2pkh7g1a446q361malde5ok9",
+  "workspace": "hermes",
+  "peerName": "prince",
+  "contextCadence": 2,
+  "dialecticCadence": 3,
+  "dialecticDepth": 1,
+  "dialecticReasoningLevel": "minimal",
+  "dialecticMaxChars": 400,
+  "contextTokens": 2000,
+  "injectionFrequency": "first-turn",
+  "saveMessages": true,
+  "hosts": {
+    "hermes": {
+      "enabled": true,
+      "aiPeer": "hermes",
+      "userPeer": "prince",
+      "recallMode": "hybrid",
+      "sessionStrategy": "per-directory"
+    },
+    "hermes.personal": {
+      "enabled": true,
+      "aiPeer": "hermes.personal",
+      "userPeer": "prince-personal",
+      "recallMode": "hybrid",
+      "sessionStrategy": "per-directory",
+      "dialecticDepth": 1,
+      "dialecticReasoningLevel": "minimal",
+      "dialecticCadence": 3,
+      "contextCadence": 2,
+      "dialecticMaxChars": 400,
+      "contextTokens": 2000,
+      "injectionFrequency": "first-turn",
+      "saveMessages": true
+    },
+    "hermes.pickpacer": {
+      "enabled": true,
+      "aiPeer": "hermes.pickpacer",
+      "userPeer": "prince-pickpacer",
+      "recallMode": "hybrid",
+      "sessionStrategy": "per-directory",
+      "dialecticDepth": 1,
+      "dialecticReasoningLevel": "minimal",
+      "dialecticCadence": 3,
+      "contextCadence": 2,
+      "dialecticMaxChars": 400,
+      "contextTokens": 2000,
+      "injectionFrequency": "first-turn",
+      "saveMessages": true
+    },
+    "hermes.budgebit": {
+      "enabled": true,
+      "aiPeer": "hermes.budgebit",
+      "userPeer": "prince-budgebit",
+      "recallMode": "hybrid",
+      "sessionStrategy": "per-directory",
+      "workspace": "hermes",
+      "peerName": "prince-budgebit"
+    },
+    "hermes.senta": {
+      "enabled": true,
+      "aiPeer": "hermes.senta",
+      "userPeer": "prince-senta",
+      "recallMode": "hybrid",
+      "sessionStrategy": "per-directory",
+      "dialecticDepth": 1,
+      "dialecticReasoningLevel": "minimal",
+      "dialecticCadence": 3,
+      "contextCadence": 2,
+      "dialecticMaxChars": 400,
+      "contextTokens": 2000,
+      "injectionFrequency": "first-turn",
+      "saveMessages": true
+    }
+  }
+}

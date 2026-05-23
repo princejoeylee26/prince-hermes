@@ -30,8 +30,8 @@
       4557
     ],
     "autonomous-ai-agents/hermes-agent/SKILL.md": [
-      1779502245913046962,
-      46167
+      1779547171169024743,
+      47834
     ],
     "autonomous-ai-agents/kanban-codex-lane/SKILL.md": [
       1779502245913046962,
@@ -40,6 +40,10 @@
     "autonomous-ai-agents/opencode/SKILL.md": [
       1779502245913046962,
       7259
+    ],
+    "clickup-architecture/SKILL.md": [
+      1779550605189023433,
+      8835
     ],
     "creative/architecture-diagram/SKILL.md": [
       1779502245913046962,
@@ -178,8 +182,8 @@
       13683
     ],
     "mcp/native-mcp/SKILL.md": [
-      1779502245977046962,
-      12365
+      1779547146973024752,
+      16697
     ],
     "media/gif-search/SKILL.md": [
       1779502245977046962,
@@ -612,6 +616,19 @@
         "macos",
         "windows"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "clickup-architecture",
+      "category": "clickup-architecture",
+      "frontmatter_name": "clickup-architecture",
+      "description": "Full architecture for Prince's ClickUp workspace — ClickU...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
